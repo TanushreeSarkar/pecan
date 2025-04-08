@@ -21,7 +21,37 @@ PEcAn is not itself an ecosystem model, and it can be used to with a variety of 
 
 ## Documentation
 
-Consult documentation of the PEcAn Project; either the [latest stable development](https://pecanproject.github.io/pecan-documentation/develop/) branch, the latest [release](https://pecanproject.github.io/pecan-documentation/latest/). Documentation from [earlier releases is here](https://pecanproject.github.io/documentation.html).
+# Installing PEcAn Using Docker
+
+> 🚀 This guide provides the **official and up-to-date** instructions for installing and running the PEcAn ecosystem using Docker.
+
+## Prerequisites
+
+Make sure the following tools are installed:
+
+- [Docker](https://www.docker.com/get-started)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+- (Optional) Git for cloning the PEcAn repo: `git clone https://github.com/PecanProject/pecan.git`
+
+## Quick Start
+
+```bash
+# Clone the PEcAn repository
+git clone https://github.com/PecanProject/pecan.git
+cd pecan
+
+# Start PEcAn using Docker Compose
+docker compose up --build
+
+---
+```markdown
+# 📦 Docker Installation Instructions
+
+> ⚠️ This page has been deprecated.
+
+For the most up-to-date and complete instructions, please refer to the official guide here:
+
+👉 [Docker Installation for PEcAn](./install-docker.html)
 
 ## Getting Started
 
